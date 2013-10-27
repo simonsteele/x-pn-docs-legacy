@@ -1,5 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+url: http://www.pnotepad.org/docs
 redcarpet:
     extensions: ["tables", "autolink", "with_toc_data", "no_intra_emphasis", "fenced_code_blocks", "hard_wrap"]
