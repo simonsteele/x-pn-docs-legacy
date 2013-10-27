@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+
+  <meta name="author" content="pnotepad.org contributors" />
+  <meta name="description" content="Programmer's Notepad Documentation" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link href="/css/up.min.css" rel="stylesheet">
+  <link href="/css/syntax.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'
+  rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+  <link href="/css/font-awesome-ie7.css" rel="stylesheet">
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="/">{{ site.title }}</a>
+        <ul class="nav">
+          <li><a href="http://www.pnotepad.org/">Programmer's Notepad</a></li>
+          <li><a href="http://www.pnotepad.org/docs/" style="font-weight: bold">Docs</a></li>        
+          <li><a href="http://www.pnotepad.org/forums/">Forums</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+
+</html>

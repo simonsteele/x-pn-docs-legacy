@@ -1,0 +1,5 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+redcarpet:
+    extensions: ["tables", "autolink", "with_toc_data", "no_intra_emphasis", "fenced_code_blocks", "hard_wrap"]
