@@ -8,8 +8,8 @@ title: How to Compile PN
 
   * Microsoft Visual Studio 2010
   * [Subversion](http://subversion.tigris.org/)
-  * [Mercurial](http://mercurial.selenic.com/)
-  * [Boost](http://www.boost.org/) library: 1.45
+  * [Git](http://git-scm.com/downloads/guis)
+  * [Boost](http://www.boost.org/) library: 1.53
 
 ## Pre-requisite Installation
 
@@ -31,7 +31,7 @@ title: How to Compile PN
 
 ## PN Download and Build Steps =====
 
-  - Get the PN code from Google Code: `hg clone https://pnotepad.googlecode.com/hg/ pnotepad`
+  - Get the PN code from Google Code: `git clone https://github.com/simonsteele/pn.git`
     - // **TimMagee** Depending on your source control client's setup you may then need to add execute permissions to DLL and EXE files in the bin directory.  You'll know that you do if, when you come to run pn.exe (see below), you get a c0000022 exception.
   - Now go to pnwtl/ and open the "pn.sln" file with Visual Studio.
   - Press F7 or Build > Build Solution and then run PN.exe.
