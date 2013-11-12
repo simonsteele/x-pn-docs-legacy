@@ -5,14 +5,16 @@ title: Translating Programmer's Notepad
 
 # Translating Programmer's Notepad
 
-As of Programmer's Notepad 2.1 (now in testing), you can translate PN into your own language. The translations use the standard PO format files, which can be edited by a wide variety of tools. We recommend using [Poedit](http://www.poedit.net/).
+Programmer's Notepad comes with a number of community created translations, and new contributions are welcome! The translations use the standard PO format files, which can be edited by a wide variety of tools. We recommend using [Poedit](http://www.poedit.net/).
 
 ## Steps to add a new language:
 
-  - Download the current language translation kit: [PN Translation Kit](http://pnotepad.googlecode.com/files/translatetools232348.zip)
+  - Download the current language translation kit: [PN Translation Kit](https://github.com/simonsteele/pn/releases/download/v2.4/translatetools2402378.zip)
   - Create a new catalog (.po file) from the English template file, translations\pnlang_2057_en-GB.pot (in Poedit go to File -> New Catalog from POT file...)
   - Fill in all the translations, ignoring any starting with "ID:"
-  - Save the catalog and upload it to the [Issue Tracker](http://code.google.com/p/pnotepad/issues/entry) as a new issue
+  - Save the catalog and do one of:
+    - upload your change as an issue on the [github project](https://github.com/simonsteele/pn/issues)
+    - fork the project on github and submit a pull request with your change
 
 When saving your translation, it should be saved with a name conforming to this format:
 
